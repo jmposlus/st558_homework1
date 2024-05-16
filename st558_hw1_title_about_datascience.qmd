@@ -1,0 +1,42 @@
+---
+title: "A Title About Data Science"
+author: "James Poslusny"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: inline
+---
+
+## Answering Questions
+
+A data scientists is a person who analyzes data with the goal of:
+
+-   Understanding trends
+
+-   Understanding effects of variables on points of interest
+
+-   Describing data and its impact on the world, and inversely, the impact of the world on data
+
+-   Drawing conclusions and crafting recommendations
+
+A data scientist and a statistician can have overlapping responsibilities, however, a statistician is expected to have a greater understanding of the mechanics of statistics and data science as a whole, as well as being able to design and implement experiments and surveys.
+
+I personally see myself as more of a statistician at the Institute for Transportation Research and Education than a data scientist, as I will routinely encounter scenarios that are not easily described by fundamental statistical distributions, and thus require some greater understanding of both the data and statistics to deal with appropriately.
+
+## Object "y"
+
+Y is from the built in Iris data set. It is calculated by calling the density function on the Sepal Length variable.
+
+```{r}
+y<- density(iris$Sepal.Length)
+summary(y)
+```
+
+The result is a list of 7 variables, each of which could be called on their own. The idea is that R has created an object containing all the necessary information to plot the density of the sepal length. We can now pass y to the plot function.
+
+```{r}
+#| echo: false
+plot(y)
+```
+
+This is a effective and quick way of visualizing the distribution of the sepal length, although this graph would need some work before being report ready.
