@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "st558_hw1_title_about_datascience.html#answering-questions",
+    "href": "st558_hw1_title_about_datascience.html#answering-questions",
+    "title": "A Title About Data Science",
+    "section": "Answering Questions",
+    "text": "Answering Questions\nA data scientists is a person who analyzes data with the goal of:\n\nUnderstanding trends\nUnderstanding effects of variables on points of interest\nDescribing data and its impact on the world, and inversely, the impact of the world on data\nDrawing conclusions and crafting recommendations\n\nA data scientist and a statistician can have overlapping responsibilities, however, a statistician is expected to have a greater understanding of the mechanics of statistics and data science as a whole, as well as being able to design and implement experiments and surveys.\nI personally see myself as more of a statistician at the Institute for Transportation Research and Education than a data scientist, as I will routinely encounter scenarios that are not easily described by fundamental statistical distributions, and thus require some greater understanding of both the data and statistics to deal with appropriately."
+  },
+  {
+    "objectID": "st558_hw1_title_about_datascience.html#object-y",
+    "href": "st558_hw1_title_about_datascience.html#object-y",
+    "title": "A Title About Data Science",
+    "section": "Object “y”",
+    "text": "Object “y”\nY is from the built in Iris data set. It is calculated by calling the density function on the Sepal Length variable.\n\ny<- density(iris$Sepal.Length)\nsummary(y)\n\n          Length Class  Mode     \nx         512    -none- numeric  \ny         512    -none- numeric  \nbw          1    -none- numeric  \nn           1    -none- numeric  \ncall        2    -none- call     \ndata.name   1    -none- character\nhas.na      1    -none- logical  \n\n\nThe result is a list of 7 variables, each of which could be called on their own. The idea is that R has created an object containing all the necessary information to plot the density of the sepal length. We can now pass y to the plot function.\n\n\n\n\n\nThis is a effective and quick way of visualizing the distribution of the sepal length, although this graph would need some work before being report ready."
+  }
+]
